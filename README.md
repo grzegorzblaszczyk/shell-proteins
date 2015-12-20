@@ -7,7 +7,7 @@ Ruby has its RubyGems (`gem`), Node.js has its Node Package Manager `npm`, now b
 
 ### Usage
 
-Just write a simple function, save it in a .sh file and push it to GitHub.
+Just write a simple function, save it in a `.inc.sh` file and push it to GitHub.
 
 ```{r, engine='bash', count_lines}
 #!/bin/bash
@@ -49,7 +49,8 @@ You can also use your own functions:
 ```{r, engine='bash', count_lines}
 #!/bin/bash
 source "$HOME/bin/shell-proteins/bash/base.inc.sh"
-protein_require "grzegorzblaszczyk/shell-proteins-ext/bash/ubuntu/verify_if_installed_with_dot" "https://raw.githubusercontent.com/grzegorzblaszczyk/shell-proteins-ext/master/bash/ubuntu/verify_if_installed_with_dot.inc.sh"
+protein_require "grzegorzblaszczyk/shell-proteins-ext/bash/ubuntu/verify_if_installed_with_dot" \
+"https://raw.githubusercontent.com/grzegorzblaszczyk/shell-proteins-ext/master/bash/ubuntu/verify_if_installed_with_dot.inc.sh"
 
 FFMPEG=`which ffmpeg`
 
