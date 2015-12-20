@@ -3,6 +3,7 @@
 ## What is shell-proteins?
 
 Shell Proteins is an easily extensible framework to write and reuse BASH functions in your Shell scripts.
+Ruby has its RubyGems (`gem`), Node.js has its Node Package Manager `npm`, now bash can have its own: `shell-proteins`
 
 ### Usage
 
@@ -57,9 +58,9 @@ verify_if_installed_with_dot ffmpeg ${FFMPEG}
 echo "[OK]"
 
 ```
-Shell Proteins will download the script from a remote location if you have not yet it installed locally. It will then reuse the function in your script.
+Shell Proteins will download the script from a remote location if necessary. It will then reuse the function in your script.
 
-If you have ffmpeg installed on your system, then the result would be:
+In this example if you have ffmpeg installed on your system, then the result when invoking this script would be:
 
 ```
 Verifying if all necessary software is installed ..[OK]
