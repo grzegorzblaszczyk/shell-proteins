@@ -9,7 +9,7 @@ Ruby has its RubyGems (`gem`), Node.js has its Node Package Manager `npm`, now b
 
 Just write a simple function, save it in a .sh file and push it to GitHub.
 
-```
+```{r, engine='bash', count_lines}
 #!/bin/bash
 
 # Function: print_usage
@@ -31,7 +31,7 @@ function print_usage() {
 
 You can then reuse it by simply adding one line in your Shell scripts:
 
-``` 
+```{r, engine='bash', count_lines}
 #!/bin/bash
 source "$HOME/bin/shell-proteins/bash/base.inc.sh" 
 
@@ -46,7 +46,7 @@ print_usage "first_param" "second_param"
 
 You can also use your own functions:
 
-```
+```{r, engine='bash', count_lines}
 #!/bin/bash
 source "$HOME/bin/shell-proteins/bash/base.inc.sh"
 protein_require "grzegorzblaszczyk/shell-proteins-ext/bash/ubuntu/verify_if_installed_with_dot" "https://raw.githubusercontent.com/grzegorzblaszczyk/shell-proteins-ext/master/bash/ubuntu/verify_if_installed_with_dot.inc.sh"
