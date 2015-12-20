@@ -57,6 +57,7 @@ verify_if_installed_with_dot ffmpeg ${FFMPEG}
 echo "[OK]"
 
 ```
+Shell Proteins will download the script from a remote location if you have not yet it installed locally. It will then reuse the function in your script.
 
 If you have ffmpeg installed on your system, then the result would be:
 
