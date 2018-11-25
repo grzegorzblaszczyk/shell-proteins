@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# shell-proteins 0.2 core script
+# Copyright 2018 by Grzegorz Błaszczyk Consulting
+
 META_DATA=""
 MKDIR=`which mkdir`
 LOCAL_FILE=""
@@ -40,8 +43,6 @@ function protein_download() {
 function protein_require() {
   FUNCTION_FILE=$1
   REMOTE_RESOURCE=$2
-
-  WGET=`which wget`
 
   if [ -f "$HOME/bin/shell-proteins/bash/${FUNCTION_FILE}.inc.sh" ]; then 
     source "$HOME/bin/shell-proteins/bash/${FUNCTION_FILE}.inc.sh"
