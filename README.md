@@ -81,3 +81,7 @@ Naming based on: http://www.scientificamerican.com/article/how-are-seashells-cre
 ## Installation
 
 ```\curl -sSL https://raw.githubusercontent.com/grzegorzblaszczyk/shell-proteins/master/install.sh | bash```
+
+## Next steps
+
+Library of useful functions are in: [shell-proteins-ext](https://github.com/grzegorzblaszczyk/shell-proteins-ext)
