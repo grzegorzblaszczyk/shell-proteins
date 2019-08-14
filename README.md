@@ -61,12 +61,12 @@ echo "[OK]"
 ```
 Shell Proteins will download the script from a remote location if necessary. It will then reuse the function in your script.
 
-#### Versioning of functions
+### Versioning of functions
 
 You can also use a specific version of a function:
 https://github.com/grzegorzblaszczyk/shell-proteins-ext/blob/0.2/bash/config/read_from_config_file.inc.sh
 
-#### Real examples
+### Real examples
 
 In this example, if you have ffmpeg installed on your system, then the result when invoking this script would be:
 
