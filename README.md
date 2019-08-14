@@ -44,7 +44,7 @@ protein_require "core/print_usage"
 print_usage "first_param" "second_param"
 ```
 
-You can also use your own functions:
+You can also use your own functions (example from `shell-proteins-ext` repository):
 
 ```{r, engine='bash', count_lines}
 #!/bin/bash
@@ -61,7 +61,14 @@ echo "[OK]"
 ```
 Shell Proteins will download the script from a remote location if necessary. It will then reuse the function in your script.
 
-In this example if you have ffmpeg installed on your system, then the result when invoking this script would be:
+#### Versioning of functions
+
+You can also use a specific version of a function:
+https://github.com/grzegorzblaszczyk/shell-proteins-ext/blob/0.2/bash/config/read_from_config_file.inc.sh
+
+#### Real examples
+
+In this example, if you have ffmpeg installed on your system, then the result when invoking this script would be:
 
 ```
 Verifying if all necessary software is installed ..[OK]
@@ -76,7 +83,7 @@ sudo apt-get install ffmpeg
 ```
 
 
-Naming based on: http://www.scientificamerican.com/article/how-are-seashells-created/
+Naming of a project based on: http://www.scientificamerican.com/article/how-are-seashells-created/
 
 ## Installation
 
