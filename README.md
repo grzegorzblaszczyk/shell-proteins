@@ -13,7 +13,7 @@ Just write a simple function, save it in a `.inc.sh` file and push it to GitHub.
 #!/bin/bash
 
 # Function: print_usage
-# 
+#
 # input params: any parameters that should be printed in usage line (space separated)
 # output: standard output with text how to use a BASH script
 
@@ -33,7 +33,7 @@ You can then reuse it by simply adding one line in your Shell scripts:
 
 ```{r, engine='bash', count_lines}
 #!/bin/bash
-source "$HOME/bin/shell-proteins/bash/base.inc.sh" 
+source "$HOME/bin/shell-proteins/bash/base.inc.sh"
 
 # Import core function
 protein_require "core/print_usage"
@@ -44,7 +44,7 @@ protein_require "core/print_usage"
 print_usage "first_param" "second_param"
 ```
 
-You can also use your own functions (example from `shell-proteins-ext` repository):
+You can also use your own functions (example from my `shell-proteins-ext` repository):
 
 ```{r, engine='bash', count_lines}
 #!/bin/bash
@@ -87,7 +87,7 @@ Naming of a project based on: http://www.scientificamerican.com/article/how-are-
 
 ## Installation
 
-```\curl -sSL https://raw.githubusercontent.com/grzegorzblaszczyk/shell-proteins/master/install.sh | bash```
+```\curl -sSL https://raw.githubusercontent.com/grzegorzblaszczyk/shell-proteins/master/setup.sh | bash```
 
 ## Next steps
 
