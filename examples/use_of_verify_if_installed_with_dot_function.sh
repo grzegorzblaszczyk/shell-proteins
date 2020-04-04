@@ -14,7 +14,7 @@ Ubuntu)
   os="ubuntu"
   ;;
 *)
-  os="unknow"
+  os="unknown"
   ;;
 esac
 
