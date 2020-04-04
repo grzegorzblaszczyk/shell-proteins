@@ -89,6 +89,13 @@ Naming of a project based on: http://www.scientificamerican.com/article/how-are-
 
 ```\curl -sSL https://raw.githubusercontent.com/grzegorzblaszczyk/shell-proteins/master/setup.sh | bash```
 
+## Upgrade
+
+You can run the same script. It will detect that you have already installed Shell Proteins and it will do `git pull --rebase` on that repository.
+
+```\curl -sSL https://raw.githubusercontent.com/grzegorzblaszczyk/shell-proteins/master/setup.sh | bash```
+
+
 ## Next steps
 
 Library of useful functions are in: [shell-proteins-ext](https://github.com/grzegorzblaszczyk/shell-proteins-ext)
